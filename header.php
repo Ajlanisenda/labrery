@@ -36,7 +36,7 @@ get_bloginfo( 'name' ); ?></a></h1>
                 <div class="row">
                     <div class="col-lg-6 flex align-items-center">
                         <div class="header-bar-text d-none d-lg-block">
-                            <p>Hello world, My name is Blanca</p>
+                            <p>Welcome to our Library</p>
                         </div><!-- .header-bar-text -->
 
                         <div class="header-bar-email d-none d-lg-block">
@@ -69,9 +69,8 @@ get_bloginfo( 'name' ); ?></a></h1>
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="site-branding flex flex-column align-items-center">
-                        <h1 class="site-title"><a href="<?php bloginfo('template_directory'); ?>/index.php" rel="home">Blanca</a></h1>
-                        <p class="site-description">Personal Blog</p>
+                    <div class="site-branding flex flex-column align-items-center" font-size="medium">
+                        <h4 class="site-title"><a href="<?php bloginfo('template_directory'); ?>/index.php" rel="home">Find books, articles,Magasin and more...</a></h4>
                     </div><!-- .site-branding -->
 
                     <nav class="site-navigation">
@@ -88,7 +87,7 @@ get_bloginfo( 'name' ); ?></a></h1>
                             <li><a href="#">Portfolio</a></li>
                             <li><a href="#">blog</a></li>
                             <li><a href="#">about me</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="contact.php">Contact</a></li>
                         </ul>
 
                         <div class="header-bar-social d-md-none">

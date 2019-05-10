@@ -16,12 +16,6 @@
 
                                 <h3><a href="#">My fall in love story</a></h3>
 
-                                <div class="tags-links">
-                                    <a href="#">#winter</a>
-                                    <a href="#">#love</a>
-                                    <a href="#">#snow</a>
-                                    <a href="#">#january</a>
-                                </div><!-- .tags-links -->
                             </header><!-- .entry-header -->
 
                             <footer class="entry-footer">
@@ -29,11 +23,14 @@
                             </footer><!-- .entry-footer -->
                         </div><!-- .footer-post-cont -->
                     </div><!-- .footer-post-wrap -->
-                </div><!-- .col -->
+                </div><!-- .col --> 
+
+
+                
                 <div class="col-12 col-md-6 col-xl-3">
                     <div class="footer-post-wrap flex justify-content-between">
                         <figure>
-                            <a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/foot-2.jpg" alt=""></a>
+                            <a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/foot.jpg" alt=""></a>
                         </figure>
 
                         <div class="footer-post-cont flex flex-column justify-content-between">
@@ -42,14 +39,8 @@
                                     January 30, 2018
                                 </div><!-- .entry-header -->
 
-                                <h3><a href="#">Man’s best friend</a></h3>
+                      <h3><a href="#">Why we sleep — Matthew Walker</a></h3>
 
-                                <div class="tags-links">
-                                    <a href="#">#winter</a>
-                                    <a href="#">#love</a>
-                                    <a href="#">#snow</a>
-                                    <a href="#">#january</a>
-                                </div><!-- .tags-links -->
                             </header><!-- .entry-header -->
 
                             <footer class="entry-footer">
@@ -59,34 +50,8 @@
                     </div><!-- .footer-post-wrap -->
                 </div><!-- .col -->
 
-                <div class="col-12 col-md-6 col-xl-3">
-                    <div class="footer-post-wrap flex justify-content-between">
-                        <figure>
-                            <a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/foot-3.jpg" alt=""></a>
-                        </figure>
+                
 
-                        <div class="footer-post-cont flex flex-column justify-content-between">
-                            <header class="entry-header">
-                                <div class="posted-date">
-                                    January 30, 2018
-                                </div><!-- .entry-header -->
-
-                                <h3><a href="#">Writing on a budget</a></h3>
-
-                                <div class="tags-links">
-                                    <a href="#">#winter</a>
-                                    <a href="#">#love</a>
-                                    <a href="#">#snow</a>
-                                    <a href="#">#january</a>
-                                </div><!-- .tags-links -->
-                            </header><!-- .entry-header -->
-
-                            <footer class="entry-footer">
-                                <a class="read-more" href="#">read more</a>
-                            </footer><!-- .entry-footer -->
-                        </div><!-- .footer-post-cont -->
-                    </div><!-- .footer-post-wrap -->
-                </div><!-- .col -->
 
                 <div class="col-12 col-md-6 col-xl-3">
                     <div class="footer-post-wrap flex justify-content-between">
@@ -102,12 +67,7 @@
 
                                 <h3><a href="#">My fall in love story</a></h3>
 
-                                <div class="tags-links">
-                                    <a href="#">#winter</a>
-                                    <a href="#">#love</a>
-                                    <a href="#">#snow</a>
-                                    <a href="#">#january</a>
-                                </div><!-- .tags-links -->
+                                
                             </header><!-- .entry-header -->
 
         <footer class="entry-footer">
@@ -132,11 +92,11 @@
                 </figure>
 
                 <figure>
-                    <a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/c.jpg" alt=""></a>
+                    <a href="#"><img  src="<?php bloginfo('template_directory'); ?>/images/c.jpg" alt=""></a>
                 </figure>
 
                 <figure>
-                        <a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/d.jpg" alt=""></a>
+                        <a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/dd.jpg" alt=""></a>
                 </figure>
 
                 <figure>
