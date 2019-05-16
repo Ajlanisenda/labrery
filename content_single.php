@@ -4,4 +4,3 @@
 the_author(); ?></a></p>
 <?php the_content(); ?>
 </div><!-- /.blog-post -->
-<?php if ( has_post_thumbnail() ) {  the_post_thumbnail(); } ?> 

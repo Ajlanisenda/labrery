@@ -31,6 +31,11 @@ get_bloginfo( 'name' ); ?></a></h1>
 
 
 <header class="site-header">
+    <?php wp_nav_menu(
+   array( 'theme_location' => 'Top_menu', 
+       'container_class' => 'menu1'
+) ); 
+?>
         <div class="top-header-bar">
             <div class="container-fluid">
                 <div class="row">
@@ -70,25 +75,12 @@ get_bloginfo( 'name' ); ?></a></h1>
             <div class="row">
                 <div class="col-12">
                     <div class="site-branding flex flex-column align-items-center" font-size="medium">
-                        <h4 class="site-title"><a href="<?php bloginfo('template_directory'); ?>/index.php" rel="home">Find books, articles,Magasin and more...</a></h4>
+                        <h4 class="site-title"><a href="<?php bloginfo('template_directory'); ?>/index.php" rel="home">Find books,Magasin,CDs and more...</a></h4>
                     </div><!-- .site-branding -->
-
-                    <nav class="site-navigation">
-                        <div class="hamburger-menu d-lg-none">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </div><!-- .hamburger-menu -->
-
-                        <ul class="flex-lg flex-lg-row justify-content-lg-center align-content-lg-center">
-                            <li class="current-menu-item"><a href="<?php bloginfo('template_directory'); ?>/index.php">Home</a></li>
-                            <li><a href="#">features</a></li>
-                            <li><a href="#">Portfolio</a></li>
-                            <li><a href="#">blog</a></li>
-                            <li><a href="#">about me</a></li>
-                            <li><a href="contact.php">Contact</a></li>
-                        </ul>
+<div class="page-header flex justify-content-center align-items-center" style="background-image: url('images/blog-bg.jpg')">
+                    <h1>The Story</h1>
+                </div>
+                    
 
                         <div class="header-bar-social d-md-none">
                             <ul class="flex justify-content-center align-items-center">
