@@ -4,77 +4,12 @@
             <div class="row footer-recent-posts">
                 <div class="col-12 col-md-6 col-xl-3">
                     <div class="footer-post-wrap flex justify-content-between">
-                        <figure>
-                            <a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/foot-1.jpg" alt=""></a>
-                        </figure>
+                        
 
-                        <div class="footer-post-cont flex flex-column justify-content-between">
-                            <header class="entry-header">
-                                <div class="posted-date">
-                                    January 30, 2018
-                                </div><!-- .entry-header -->
-
-                                <h3><a href="#">My fall in love story</a></h3>
-
-                            </header><!-- .entry-header -->
-
-                            <footer class="entry-footer">
-                                <a class="read-more" href="#">read more</a>
-                            </footer><!-- .entry-footer -->
-                        </div><!-- .footer-post-cont -->
-                    </div><!-- .footer-post-wrap -->
-                </div><!-- .col --> 
-
-
-                
-                <div class="col-12 col-md-6 col-xl-3">
-                    <div class="footer-post-wrap flex justify-content-between">
-                        <figure>
-                            <a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/foot.jpg" alt=""></a>
-                        </figure>
-
-                        <div class="footer-post-cont flex flex-column justify-content-between">
-                            <header class="entry-header">
-                                <div class="posted-date">
-                                    January 30, 2018
-                                </div><!-- .entry-header -->
-
-                      <h3><a href="#">Why we sleep — Matthew Walker</a></h3>
-
-                            </header><!-- .entry-header -->
-
-                            <footer class="entry-footer">
-                                <a class="read-more" href="#">read more</a>
-                            </footer><!-- .entry-footer -->
-                        </div><!-- .footer-post-cont -->
-                    </div><!-- .footer-post-wrap -->
-                </div><!-- .col -->
-
+              
                 
 
 
-                <div class="col-12 col-md-6 col-xl-3">
-                    <div class="footer-post-wrap flex justify-content-between">
-                        <figure>
-                            <a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/foot-4.jpg" alt=""></a>
-                        </figure>
-
-                        <div class="footer-post-cont flex flex-column justify-content-between">
-                            <header class="entry-header">
-                                <div class="posted-date">
-                                    January 30, 2018
-                                </div><!-- .entry-header -->
-
-                                <h3><a href="#">My fall in love story</a></h3>
-
-                                
-                            </header><!-- .entry-header -->
-
-        <footer class="entry-footer">
-      <a class="read-more" href="#">read more</a>
-                            </footer><!-- .entry-footer -->
-                        </div><!-- .footer-post-cont -->
-                    </div><!-- .footer-post-wrap -->
                 </div><!-- .col -->
             </div><!-- .row -->
         </div><!-- .container-fluid -->
@@ -125,34 +60,8 @@
                             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                         </div><!-- .footer-copyright -->
                     </div><!-- .col-xl-4 -->
-<footer class="entry-footer flex flex-column flex-lg-row justify-content-between align-content-start align-lg-items-center">
-                        <ul class="post-share flex align-items-center order-3 order-lg-1">
-                            <label>Share</label>
-                            <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        </ul><!-- .post-share -->
 
-                        <a class="read-more order-2" href="#">Read more</a>
-
-                        <div class="comments-count order-1 order-lg-3">
-                            <a href="#">2 Comments</a>
-                        </div><!-- .comments-count -->
-
-                    </footer><!-- .entry-footer -->
-                    <div class="col-12 col-md-6">
-                        <div class="footer-social">
-                            <ul class="flex justify-content-center justify-content-md-end align-items-center">
-                                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                                <li><a href="#"><i class="fa fa-behance"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                            </ul>
-                        </div><!-- .footer-social -->
+                    
                     </div><!-- .col-xl-4 -->
                 </div><!-- .row -->
             </div><!-- .container-fluid -->

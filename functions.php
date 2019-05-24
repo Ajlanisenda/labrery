@@ -1,6 +1,8 @@
 <?php
 // WordPress Titles
 add_theme_support( 'title-tag' );
+
+
 // Add scripts and stylesheets
 function startwordpress_scripts() {
  wp_enqueue_style( 'bootstrap', get_template_directory_uri() .
@@ -11,6 +13,19 @@ function startwordpress_scripts() {
 '/js/bootstrap.min.js', array( 'jquery' ), '3.3.6', true );
 }
 add_action( 'wp_enqueue_scripts', 'startwordpress_scripts' );
+// Removes from post and pages
+function remove_comment_support() {
+    remove_post_type_support( 'post', 'comments' );
+    remove_post_type_support( 'page', 'comments' );
+}
+add_action( 'init', 'remove_comment_support', 100 );
+
+//read more links
+function custom_read_more_link() {
+    return '<a href="' . get_permalink() . '">Read More</a>';
+}
+add_filter( 'the_content_more_link', 'custom_read_more_link' );
+
 // Add Google Fonts
 function startwordpress_google_fonts() {
 wp_register_style('OpenSans',
@@ -19,11 +34,18 @@ wp_enqueue_style( 'OpenSans');
 }
 add_action('wp_print_styles', 'startwordpress_google_fonts');
 // Custom settings
-add_theme_support( 'menus' );
-  register_nav_menus( array(
-            'Top_menu' => __( 'Top menu', 'text_domain' ),
-            'footer_menu'  => __( 'Footer Menu', 'text_domain' ),
-        ) );
+
+  
+  function register_my_menus() {
+    register_nav_menus(
+        array(
+            'new-menu' => __( 'New Menu' ),
+            'another-menu' => __( 'Another Menu' ),
+            'an-extra-menu' => __( 'An Extra Menu' ),
+        )
+    );
+}
+add_action( 'init', 'register_my_menus' );
 function custom_settings_add_menu() {
  add_menu_page( 'Custom Settings', 'Custom Settings', 'manage_options',
 'custom-settings', 'custom_settings_page', null, 99 );
