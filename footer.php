@@ -7,7 +7,7 @@
                         
 
               
-                
+               
 
 
                 </div><!-- .col -->
@@ -17,7 +17,6 @@
 
     <div class="container-fluid">
         <div class="row">
-            <div class="footer-instagram flex flex-wrap flex-lg-nowrap">
                 <figure>
                     <a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/a.jpg" alt=""></a>
                 </figure>

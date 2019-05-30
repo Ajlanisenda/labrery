@@ -14,19 +14,19 @@
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="hero-content flex justify-content-center align-items-center flex-column">
-                                <a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/foot-1.jpg" alt=""></a>
+                                <a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/foot-1.jpg" alt="" height="7000" width="5000"></a>
                             </div><!-- .hero-content -->
                         </div><!-- .swiper-slide -->
 
                         <div class="swiper-slide">
                             <div class="hero-content flex justify-content-center align-items-center flex-column">
-                              <a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/dd.jpeg" alt=""></a>
+                              <a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/dd.jpeg" alt="" height="7000" width="5000"></a>
                             </div><!-- .hero-content -->
                         </div><!-- .swiper-slide -->
 
                         <div class="swiper-slide">
                             <div class="hero-content flex justify-content-center align-items-center flex-column">
-                                <a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/fo.jpg" " alt="" height="2000" width="2000"></a>
+                                <a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/fo.jpg" " alt="" height="2500" width="2000"></a>
                             </div><!-- .hero-content -->
                         </div><!-- .swiper-slide -->
                     </div><!-- .swiper-wrapper -->
@@ -82,9 +82,8 @@
 
                         <ul class="flex-lg flex-lg-row justify-content-lg-center align-content-lg-center">
                             <li class="current-menu-item"><a href="index.php">home</a></li>
-                            <li><a href="#"><?php wp_nav_menu( array( 'theme_location' => 'nav-menu' ) ); ?></a></li>
-                            <li><a href="">Photos</a></li>
-                            <li><a href="#"><?php wp_nav_menu( array( 'theme_location' => 'nav-menu' ) ); ?></a></li>
+                            <li><a href=""><?php wp_nav_menu( array( 'theme_location' => 'nav-menu' ) ); ?></a></li>
+                            <?php wp_nav_menu();?>
                             
                         </ul>
         <div class="top-header-bar">
